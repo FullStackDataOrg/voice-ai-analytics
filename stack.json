@@ -1,0 +1,3 @@
+{
+  "stack": ["Docker", "PostgreSQL", "dbt", "Python", "Metabase", "Pandas", "scikit-learn", "SQLAlchemy"]
+}

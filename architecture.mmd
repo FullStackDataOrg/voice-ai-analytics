@@ -1,0 +1,7 @@
+graph TD
+  A[CSV Raw Data] --> B[PostgreSQL\nRaw tables]
+  B --> C[dbt Staging Models\nstg_*]
+  C --> D[dbt Fact Models\nfact_voice_ai_sessions]
+  D --> E[Python Analysis\nLogistic Regression / Segmentation]
+  D --> F[Metabase Dashboards]
+  F --> G[Stakeholder Insights]
